@@ -19,3 +19,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "multiformat-kmp"
 include(":encoding")
+include(":multibase")
