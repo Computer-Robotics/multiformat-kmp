@@ -63,9 +63,11 @@ subprojects {
 dependencies {
     // Code Documentation
     dokka(project(":encoding"))
+    dokka(project(":multibase"))
 
     // Code Coverage
     kover(project(":encoding"))
+    kover(project(":multibase"))
 }
 
 nexusPublishing {
